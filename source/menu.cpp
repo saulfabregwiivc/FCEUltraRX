@@ -782,11 +782,11 @@ static void WindowCredits(void * ptr)
 	txt[i]->SetPosition(335,y); i++; y+=24;
 	txt[i] = new GuiText("Logo");
 	txt[i]->SetPosition(40,y); i++;
-	txt[i] = new GuiText("NiuuS");
+	txt[i] = new GuiText("NiuuS, mvit");
 	txt[i]->SetPosition(335,y); i++; y+=24;
-	txt[i] = new GuiText("Logo");
+	txt[i] = new GuiText("Unofficial mod");
 	txt[i]->SetPosition(40,y); i++;
-	txt[i] = new GuiText("mvit");
+	txt[i] = new GuiText("saulfabreg");
 	txt[i]->SetPosition(335,y); i++; y+=24;
 	txt[i] = new GuiText("Additional improvements");
 	txt[i]->SetPosition(40,y); i++;
@@ -966,7 +966,7 @@ static int MenuGameSelection()
 	GuiImage preview;
 	preview.SetAlignment(ALIGN_CENTRE, ALIGN_MIDDLE);
 	preview.SetPosition(175, -8);	//preview.SetPosition(380, 125);
-	u8* imgBuffer = MEM_ALLOC(512 * 512 * 4);
+	u8* imgBuffer = MEM_ALLOC(640 * 480 * 4);
 	int  previousBrowserIndex = -1;
 	char imagePath[MAXJOLIET + 1]; //originally screenshotPath
 
@@ -3238,9 +3238,9 @@ static int MenuSettingsVideo()
 			else if (GCSettings.render == 2)
 				sprintf (options.value[0], "Unfiltered");
 			else if (GCSettings.render == 3)
-				sprintf (options.value[0], "Filtered (Sharp)");
-			else if (GCSettings.render == 4)
 				sprintf (options.value[0], "Filtered (Soft)");
+			else if (GCSettings.render == 4)
+				sprintf (options.value[0], "Filtered (Sharp)");
 
 			if(GCSettings.widescreen)
 				sprintf (options.value[1], "16:9 Correction");

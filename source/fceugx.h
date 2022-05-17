@@ -17,7 +17,7 @@
 #include "fceultra/driver.h"
 
 #define APPNAME			"FCE Ultra RX"
-#define APPVERSION		"1.7.0"
+#define APPVERSION		"1.7.1-UO"
 #define APPFOLDER 		"fceugx"
 #define PREF_FILE_NAME	"settingsRX.xml"
 
