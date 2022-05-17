@@ -1,7 +1,7 @@
 ¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
 
                                  - FCE Ultra RX -
-			https://github.com/niuus/fceurx
+		       https://github.com/niuus/FCEUltraRX
 				Based/forked from:
 			https://github.com/dborth/fceugx
 				(Under GPL License)
